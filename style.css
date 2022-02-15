@@ -1,0 +1,126 @@
+body{
+  background-color: AntiqueWhite;
+}
+.menu{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.menu li {
+  float: left;
+}
+
+.menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  background-color: #111;
+}
+
+h1{
+  font-family:"Impact";
+  color:black;
+  font-size :100px;
+  text-align:center;
+}
+
+h2{
+  font-family:"Impact";
+  color:black;
+  font-size :45px;
+  text-align:center;
+  margin-top:5%;
+
+}
+
+p{
+  font-family:"Times New Roman";
+  color:black;
+  font-size :20px;
+  margin-top:-3%;
+  line-height: 1.4;
+
+}
+
+h4{
+  font-family:"Times New Roman";
+  color:black;
+  font-size :20px;
+  text-align:center;
+  line-height: 1.4;
+
+}
+
+.pic1{
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 70%;
+}
+
+.pic2{
+float:left;
+  margin-top: 5%;
+  width: 40%;
+}
+
+.pic3{
+  float:right;
+    margin-top: 5%;
+    width: 40%;
+  }
+
+  .pic4{
+    border-radius: 50%;
+    display: block;
+    margin-left: 10%;
+    margin-right: auto;
+    width:200px;
+    height:200px;
+  }
+
+  .pic5{
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:-15%;
+    width:200px;
+    height:200px;
+  }
+
+  .pic6{
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: 10%;
+    margin-top:-16%;
+    width:200px;
+    height:200px;
+  }
+
+  a:link, a:visited {
+  background-color: #333;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
